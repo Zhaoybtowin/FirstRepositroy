@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JDBC/JDBC.iml" filepath="$PROJECT_DIR$/JDBC/JDBC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JS/JS.iml" filepath="$PROJECT_DIR$/JS/JS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Java.iml" filepath="$PROJECT_DIR$/Java/Java.iml" />
+      <module fileurl="file://F:/Project_mybatis/Project_mybatis.iml" filepath="F:/Project_mybatis/Project_mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Project_practice.iml" filepath="$PROJECT_DIR$/Project_practice.iml" />
+      <module fileurl="file://F:/Project_servlet/Project_servlet.iml" filepath="F:/Project_servlet/Project_servlet.iml" />
+      <module fileurl="file://F:/Project_tomcat/Project_tomcat.iml" filepath="F:/Project_tomcat/Project_tomcat.iml" />
+    </modules>
+  </component>
+</project>

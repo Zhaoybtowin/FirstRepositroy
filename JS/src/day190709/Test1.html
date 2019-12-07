@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>元素节点获取</title>
+    <script type="text/javascript">
+        //获取元素节点的子节点
+        window.onload = function(){
+            //1.获取 #city 节点的所有子节点
+            var cityNode = document.getElementById("city");
+            //2.利用元素节点的childNodes方法可以获取指定元素节点的所有子节点
+            //但该方法不实用
+            alert(cityNode.childNodes.length);
+            //3.获取 #city 节点的所有 li 子节点
+            var cityNodes = cityNode.getElementsByTagName("text");
+            alert(cityNodes.length);
+            //4.获取指定节点的第一个子节点和最后一个子节点
+            alert(cityNode.firstChild.nodeValue);
+            alert(cityNode.lastChild);
+        }
+    </script>
+</head>
+<body>
+<p>你喜欢哪个城市？</p>
+<ul id="city">111
+    <li id="bj" name="Beijing">北京</li>
+    <li>上海</li>
+    <li>杭州</li>
+    <li>西安</li>
+</ul>
+<br><br>
+gender:
+<input type="radio" name="gender" value="male"/>Male
+<input type="radio" name="gender" value="female"/>Female
+</body>
+</html>

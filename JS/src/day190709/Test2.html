@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>元素节点获取</title>
+    <script type="text/javascript">
+        //获取文本节点
+        window.onload = function(){
+            //文本节点一定是元素节点的子节点
+
+            //1.获取文本节点所在的元素节点
+            var bjNode = document.getElementById("bj");
+            //2.通过 firstChild 定义到文本节点
+            var bjFirstChildNode = bjNode.firstChild;
+            //3.通过操作文本节点的nodeValue属性来读写文本节点
+            alert(bjFirstChildNode.nodeValue);
+            bjFirstChildNode.nodeValue = "家";
+
+            //alert(bjFirstChildNode);
+        }
+    </script>
+</head>
+<body>
+<p>你喜欢哪个城市？</p>
+<ul id="city"><li id="bj" name="Beijing">北京</li>
+    <li>上海</li>
+    <li>杭州</li>
+    <li>西安</li>
+</ul>
+<br><br>
+gender:
+<input type="radio" name="gender" value="male"/>Male
+<input type="radio" name="gender" value="female"/>Female
+</body>
+</html>

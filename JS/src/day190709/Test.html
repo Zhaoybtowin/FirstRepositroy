@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>元素节点获取</title>
+    <script type="text/javascript">
+        //读写属性节点：通过元素节点"."的方式来获取属性值和设置属性值
+        window.onload = function(){
+            //属性节点即为某一指定元素节点的属性
+            //1.先获取指定的元素节点
+            var name = document.getElementById("name");
+            //2.再读取指定属性的值
+            alert(name.value);
+            //3.设置指定的属性的值
+            name.value = "是帅哥";
+        }
+    </script>
+</head>
+<body>
+name:<input type="text" name="username" id="name" value="zhaoyb" readonly="true"/>
+</body>
+</html>

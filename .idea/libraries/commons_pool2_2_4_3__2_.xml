@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="commons-pool2-2.4.3 (2)">
+    <CLASSES>
+      <root url="jar://F:/Project_tomcat/web/WEB-INF/libs/commons-pool2-2.4.3.jar!/" />
+      <root url="jar://F:/Project_tomcat/web/WEB-INF/libs/jedis-2.7.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://F:/Project_tomcat/web/WEB-INF/libs/jedis-2.7.2.jar!/src/test/java" />
+    </SOURCES>
+  </library>
+</component>

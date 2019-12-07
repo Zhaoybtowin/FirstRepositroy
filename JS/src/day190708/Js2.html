@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>First Js2</title>
+    <!-- 此时获得的长度是0，说明是顺序执行的
+    <script type="text/javascript">
+        //获取button长度
+        var btn = document.getElementsByTagName("button");
+        alert(btn.length);
+    </script>  -->
+</head>
+<body>
+    <button>
+        Click Me!
+    </button>
+</body>
+</html>
+
+<!-- 将这段放在最下方，成功获得长度1
+     在整个HTML文档被加载后，获取其中的节点，把script节点放在HTML文档的最后。-->
+<script type="text/javascript">
+    //获取button长度
+    var btn = document.getElementsByTagName("button");
+    alert(btn.length);
+
+    //为button添加onclick响应函数
+    btn[0].onclick = function () {
+        alert("HelloWorld!");
+    }
+</script>

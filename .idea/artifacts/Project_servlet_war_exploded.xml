@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Project_servlet:war exploded">
+    <output-path>F:/Project_servlet/target/maven_servlet</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Project_servlet" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="maven_servlet-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="Project_servlet" />
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="F:/Project_servlet/target/maven_servlet/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="Project_servlet/web/Web" />
+    </root>
+  </artifact>
+</component>
